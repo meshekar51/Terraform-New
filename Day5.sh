@@ -1,3 +1,6 @@
 #!/bin/bash
+
+Name="chandra"
 read -p "Enter your name: " MYNAME
-echo "Hello $MYNAME, Nice to meet you!"
+echo "Hello $MYNAME, Nice to meet you $Name!"
+
