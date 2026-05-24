@@ -1,6 +1,6 @@
 #!/bin/bash
 DATE=$(date)
 
-each "Now the time is $DATE"
+echo "Now the time is $DATE"
 
-each "Save the output to file $DATE > ${DATE}.txt
+echo "Save the output to file $DATE > ${DATE}.txt
