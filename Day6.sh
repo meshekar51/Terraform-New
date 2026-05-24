@@ -1,5 +1,5 @@
 #!/bin/bash
-Memory=$(free -h | grep Mem)
+Memory=$(free -h | awk /free: {Print $2})
 
 echo " The current memory is: $Memory"
 
