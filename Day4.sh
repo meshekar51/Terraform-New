@@ -3,4 +3,4 @@ DATE=$(date)
 
 echo "Now the time is $DATE"
 
-echo "Save the output to file, $DATE > ${DATE}.txt"
+echo "Current time saved in this file,${DATE}.txt"
