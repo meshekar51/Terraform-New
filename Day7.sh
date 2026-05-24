@@ -1,4 +1,4 @@
-df -h555 / > /tmp/df_output.txt &>>/tmp/df_error.txt
+df -h / > /tmp/df_output.txt &>>/tmp/df_error.txt
 
 if [ $? -eq 0 ]
 then
