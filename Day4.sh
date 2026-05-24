@@ -1,3 +1,4 @@
+#!/bin/bash
 DATE=$(date)
 
 each "Now the time is $DATE"
