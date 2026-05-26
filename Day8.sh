@@ -7,7 +7,7 @@ echo "##------------------##"
 #later add conditional statement under Loop
 #
 
-find /var/log/nginx -name "*.log"
+
 find /var/log/nginx -name "*.log" | xargs grep "Safari"
 
 echo "check"
