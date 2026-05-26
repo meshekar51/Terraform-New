@@ -8,4 +8,5 @@ echo "##------------------##"
 #
 
 find /var/log/nginx -name "*.log"
-find /var/log/nginx -name "*.log" -exec grep -l "Safari" {} +
+find /var/log/nginx -name "*.log" -exec grep -r "86.87.13.238" /var/log/nginx/
+find /var/log/nginx -name "*.log" | xargs grep "Safari"
