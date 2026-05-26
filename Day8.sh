@@ -6,8 +6,10 @@ echo "##------------------##"
 #Later add for loop
 #later add conditional statement under Loop
 #
+NGINX_LOGS=$(find /var/log/nginx -name "*.log" | xargs grep "Safari")
+echo "These are the Logs from Access and Error Logs"
+echo "$NGINX_LOGS"
 
 
-find /var/log/nginx -name "*.log" | xargs grep "Safari"
 
 echo "check"
