@@ -7,4 +7,4 @@ echo "##------------------##"
 #later add conditional statement under Loop
 #
 
-find /var/log/nginx -type f -name "*.log" -exec grep -l "Safari" {} \;
+find /var/log/nginx -name "*.log" -exec grep -l "Safari" {} \;
