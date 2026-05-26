@@ -8,6 +8,6 @@ echo "##------------------##"
 #
 
 find /var/log/nginx -name "*.log"
-find /var/log/nginx -name "*.log" | grep "Safari"
+find /var/log/nginx -name "*.log" | xargs grep "Safari"
 
 echo "check"
